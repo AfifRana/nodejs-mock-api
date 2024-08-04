@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-mock-api",
+  "version": "1.0.0",
+  "description": "For testing\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Mock for testing",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "start-auth": "npx nodemon server-auth.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
